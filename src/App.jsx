@@ -12,7 +12,7 @@ import NewProduct from "./pages/newProduct/NewProduct";
 
 function App() {
 	return (
-		<Router>
+		<Router basename="/generic-admin-panel/">
 			<Topbar />
 			<div className="container">
 				<Sidebar />
